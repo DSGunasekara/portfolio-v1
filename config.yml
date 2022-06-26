@@ -1,0 +1,36 @@
+baseURL: http://example.org/
+languageCode: en-us
+title: Dilain Gunasekara
+theme: "PaperMod"
+params:
+    profileMode:
+        enabled: true
+        title: "Fullstack Developer"
+        subtitle: "Hello Everyone, Welcome to my Portfolio"
+        imageUrl: "profile.png"
+        imageTitle: "profile image"
+        imageWidth: 120
+        imageHeight: 150
+    socialIcons:
+      - name: "github"
+        url: "https://github.com/DSGunasekara"
+      - name: "linkedin"
+        url: "https://www.linkedin.com/in/adsgunasekara/"
+menu:
+  main:
+    - identifier: About
+      name: About
+      url: /about/
+      weight: 10
+    - identifier: Projects
+      name: Projects
+      url: /projects/
+      weight: 20
+    - identifier: Experience
+      name: Experience
+      url: /experience/
+      weight: 30
+    - identifier: Contact
+      name: Contact
+      url: contact
+      weight: 40
